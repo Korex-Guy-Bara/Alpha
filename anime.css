@@ -1,0 +1,482 @@
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 1997px;
+    background-color: #444444;
+    height: fit-content;
+
+}
+li a{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+   /* background-color: #444444;*/
+    color: white;
+    padding: 10px 50px 10px 40px;
+    text-decoration: none;
+    border-right: 3px solid black;
+    min-width: 288px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li a:hover{
+    background-color: #222222;
+    animation: myGlowAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    text-align: center;
+}
+@keyframes myGlowAnimation{
+    50%{text-shadow: 0px 0px 50px rgb(255, 255, 255);}
+}
+.cl{
+    margin-top: 0px;
+    height: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+body{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    font-size: 40px;
+   /*border-right: 2px solid white;*/
+}
+
+body{
+    background: linear-gradient(rgb(34, 34, 72),black);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#img{
+    width: 250px;
+    border-radius: 5px;
+}
+#img:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+#l{
+    width: 200px; 
+    border-radius: 5px;  
+}
+#l:hover{
+    width: 250px;
+    border-radius: 5px;
+}
+.st{
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.nd{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+    width: fit-content;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.dd{
+    margin: 10px 10px 10px 0px;
+    width: fit-content; 
+}
+#stn{
+    width: 250px;
+    border-radius: 5px;
+}
+#stn:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+#sn{
+    
+    width: 200px;
+    border-radius: 5px; 
+}
+#sn:hover{
+    width: 250px;
+    border-radius: 5px;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 0px;
+    width: fit-content;
+}
+#n{
+    width: 250px; 
+    border-radius: 5px; 
+}
+#n:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.sl{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px;  
+    width: fit-content;
+}
+.geas{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content; 
+}
+.slo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px  0px 0px 10px; 
+    width: fit-content; 
+}
+.ast{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content; 
+}
+.tok{
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content; 
+}
+.fire{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content; 
+}
+#j{
+    width: 230px;
+    border-radius: 5px;
+}
+#j:hover{
+    width: 250px;
+    border-radius: 5px;
+}
+#g{
+    width: 300px;
+    border-radius: 5px;
+}
+#g:hover{
+    width: 350px;
+    border-radius: 5px;
+}
+#ast{
+    width: 250px;
+    border-radius: 5px;
+}
+#ast:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+#at{
+    width: 250px;
+    border-radius: 5px;
+}
+#at:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+#as{
+    width: 300px;
+    border-radius: 5px;
+}
+#as:hover{
+    width: 350px;
+    border-radius: 5px;
+}
+.tens{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content
+}
+#ten{
+    width: 250px;
+    border-radius: 5px;
+}
+#ten:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.ass{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#ass{
+    width: 300px;
+    border-radius: 5px;
+}
+#ass:hover{
+    width: 350px;
+    border-radius: 5px;
+}
+.mha{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#hr{
+    width: 300px;
+    border-radius: 5px; 
+}
+#hr:hover{
+    width: 350px;
+    border-radius: 5px;
+}
+#med{
+    width: 250px; 
+    border-radius: 5px;
+}
+#med:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.sins{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#cp{
+    width: 250px; 
+    border-radius: 5px;
+}
+#cp:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.married{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#kj{
+    width: 270px; 
+    border-radius: 5px;
+}
+#kj:hover{
+    width: 320px;
+    border-radius: 5px;
+}
+.kiaju{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#eyt{
+    width: 250px; 
+    border-radius: 5px;
+}
+#eyt:hover{
+    width: 270px;
+    border-radius: 5px;
+}
+.et{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#pun{
+    width: 200px; 
+    border-radius: 5px;
+}
+#pun:hover{
+    width: 230px;
+    border-radius: 5px;
+}
+.punchone{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#lag{
+    width: 220px; 
+    border-radius: 5px;
+}
+#lag:hover{
+    width: 250px;
+    border-radius: 5px;
+}
+.lagoon{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#sao{
+    width: 250px; 
+    border-radius: 5px;
+}
+#sao:hover{
+    width: 270px;
+    border-radius: 5px;
+}
+.sao{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#bor{
+    width: 230px;
+    border-radius: 5px; 
+}
+#bor:hover{
+    width: 250px;
+    border-radius: 5px;
+}
+.boruto{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#nar{
+    width: 200px; 
+    border-radius: 5px;
+}
+#nar:hover{
+    width: 220px;
+    border-radius: 5px;
+}
+.naruto{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#mash{
+    width: 250px; 
+    border-radius: 5px;
+}
+#mash:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.mashle{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#oshi{
+    width: 250px; 
+    border-radius: 5px;
+}
+#oshi:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.oshi{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#bleach{
+    width: 250px; 
+    border-radius: 5px;
+}
+#bleach:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.bleach{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#rim{
+    width: 250px; 
+    border-radius: 5px;
+}
+#rim:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.slime{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#free{
+    width: 250px; 
+    border-radius: 5px;
+}
+#free:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.frerien{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#elite{
+    width: 250px; 
+    border-radius: 5px;
+}
+#elite:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.elite{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+#aot{
+    width: 250px; 
+    border-radius: 5px;
+}
+#aot:hover{
+    width: 300px;
+    border-radius: 5px;
+}
+.titan{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px; 
+    width: fit-content;
+}
+img:hover{
+          transform: rotate3d(0, 1, 5, 1turn);
+          transition: all 1s ease-out;
+          z-index: 10;
+}
